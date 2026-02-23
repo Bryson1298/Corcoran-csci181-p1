@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project One</title>
+  </head>
+  <body>
+    <header>
+      <a href="./home.html">
+        <img src="./p1_images/rubys_cafe_logo.jpeg" alt="Ruby's Logo" />
+      </a>
+      <nav>
+        <ul style="display: flex; gap: 30px; list-style: none; margin: 0">
+          <li><a href="./home.html">HOME</a></li>
+          <li><a href="./menu.html">MENU</a></li>
+          <li><a href="./gallery.html">GALLERY</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="banner">        
+            <img src="./p1_images/waffle.jpg"></img>
+            <div class="banner-content">
+                <h1>Contact Us</h2>
+            </div>
+        </div>
+        <div class="contact-wrapper">
+        <div class="contact-form">
+            <h2>Email Us</h2>
+            <form action="#">
+            <label for="name">NAME <span class="required">*</span></label>
+            <input type="text" id="name" required>
+            <label for="email">EMAIL <span class="required">*</span></label>
+            <input type="email" id="email" required>
+            <label for="message">MESSAGE <span class="required">*</span></label>
+            <textarea id="message" rows="8" required></textarea>
+            <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Ruby's Cafe</h2>
+            <div class="info-box red">
+            EMAIL: INFO@RUBYS-CAFE.COM
+            </div>
+            <div class="info-box light">
+            PHONE: (406) 728-9890
+            </div>
+            <div class="info-box black">
+            2101 REGENT ST. MISSOULA, MT. 59801
+            </div>
+            <div class="map-placeholder">
+                <img src="./p1_images/Map.png" alt="Map Placeholder">
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h2>Address</h2>
+        <h2>Hours</h2>
+        <h2>Contacts</h2>
+
+        <p>2101 Regent St, Missoula, MT 59801</p>
+        <p>Monday - Saturday: 6 am- 4 pm</p>
+        <div class="contact"><p>PHONE: (406) 728-9890</p></div>
+        <div class="direction">
+          <a
+            href="https://www.google.com/maps/place/2101+Regent+St,+Missoula,+MT+59801"
+            >GET DIRECTIONS</a
+          >
+        </div>
+        <p>Sunday: 8 am - 3 pm</p>
+        <div class="contact">
+          <a href="contact.html">EMAIL: INFO@RUBYS-CAFE.COM</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
